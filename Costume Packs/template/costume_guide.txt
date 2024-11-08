@@ -1,0 +1,58 @@
+EVERY FRAME:
+Walk (frame 1)
+Walk (frame 2)
+Walk (frame 3)
+Jump
+Skid
+Flagpole/Climb (frame 1)
+Flagpole/Climb (frame 2)
+Swim (frame 1)
+Swim (frame 2)
+Swim (frame 3)
+Crouch
+Stand
+Fall
+Appeal (Taunt/Pose)
+Dead
+Shoot Projectile (optional)
+
+SIZE OF EVERY FRAME: 32x32 px
+MAXIMUM SIZE OF COSTUMES IN SUPER MARIO MAKER: 24x24 px
+SIZE OF EVERY PROJECTILE FRAME: 16x16 px
+SUGGESTED PROJECTILE SIZE: 8x8 px
+
+-BE SURE TO SAVE IT AS A 32-BIT PNG OTHERWISE THE TRANSPARENCY WILL NOT WORK-
+
+CUSTOM SOUNDS:
+if you want to add custom sound effects to the costume, just add OGG files
+to the folder with the respective names:
+appeal.ogg
+dead.ogg
+flagpole.ogg
+jump.ogg
+powerup.ogg
+shoot.ogg (optional)
+if you don't set any custom sounds the default sounds will play.
+
+NAME:
+For the name that displays on the costume picker, create a txt file named "name.txt"
+with the name. use "#" for newline. (i.e. "Character#(Series)")
+
+PROJECTILE:
+if you want your character to shoot projectiles, edit the projectile.png, which has
+4 frames.
+and make a txt file named "projectile.txt", and input one of the following numbers
+in it for its shooting style:
+0 (Bouncing, like the original Mario Fireball)
+1 (Continuous, like a Bullet)
+2 (Gravity, like the hammer from SMB3)
+
+IMPORTANT NOTES/TIPS:
+-DON'T forget anything that's NOT optional or there might be errors in-game.
+-It is encouraged to include the costumes used in a course when sharing it, with the
+costume folder being the number of it, as the course file stores the costume NUMBERS,
+otherwise people are most likely to get the wrong costumes in the level or maybe even get an error.
+This MIGHT change in the future.
+-For better costume editing, if you have Game Maker 8/Game Maker Studio, import the sheet.png on
+the sprite editor as a strip, and edit from there. That way it is easier to stay in frames and
+center the sprites as they should.
